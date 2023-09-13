@@ -3,38 +3,43 @@ import org.junit.Test;
 
 public class RationalTest {
     @Test
-    public void testAdd() throws Rational.Illegal {
+    public void testAdd() {
         Rational x = new Rational();
-        x.numerator = 2;
+        x.numerator = 1;
         x.denominator = 2;
         Rational y = new Rational();
-        y.numerator = 3;
+        y.numerator = 1;
         y.denominator = 4;
         x.add(y);
-        Assert.assertEquals(7, x.numerator);
+        Assert.assertEquals(3, x.numerator);
         Assert.assertEquals(4, x.denominator);
-    }
 
+    }
     @Test
-    public void testSubstract() throws Rational.Illegal {
-        Rational x = new Rational(1, 2);
-        Rational y = new Rational(3, 4);
-//        Rational y = new Rational(3, 4);
-        x.multiply(y);
-        // Assert both numerator and denominator
-        Assert.assertEquals(1, x.numerator);
-        Assert.assertEquals(6, x.denominator);
+    public void testSubtract() throws Rational.Illegal {
+        Rational x = new Rational(1,2);
+        Rational y = new Rational(2,2);
+        Rational z = new Rational(3,4);
+
+        x.subtract(y);
+        Assert.assertEquals(-1, x.numerator);
+        Assert.assertEquals(2, x.denominator);
+        y.subtract(z);
+        Assert.assertEquals(1, y.numerator);
+        Assert.assertEquals(4, y.denominator);
     }
 
     @Test
     public void testMultiply() throws Rational.Illegal {
-        Rational x = new Rational(1, 2);
-        Rational y = new Rational(3, 4);
-//        Rational y = new Rational(3, 4);
+        Rational x = new Rational(1,2);
+        Rational y = new Rational(2,2);
+        Rational z = new Rational(3,4);
+
         x.multiply(y);
-        // Assert both numerator and denominator
         Assert.assertEquals(1, x.numerator);
-        Assert.assertEquals(6, x.denominator);
+        Assert.assertEquals(2, x.denominator);
+        y.multiply(z);
+        Assert.assertEquals(3, y.numerator);
+        Assert.assertEquals(4, y.denominator);
     }
 }
-

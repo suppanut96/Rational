@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Suppanuts-MBP.true.true" name="RationalTest" skipped="0" tests="3" time="0.205" timestamp="2023-09-13T09:01:48">
+  <properties>
+    <property name="ant.library.dir" value="/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="20" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="java.class.path" value="/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.base:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.compiler:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.datatransfer:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.desktop:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.instrument:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.logging:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.management:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.management.rmi:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.naming:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.net.http:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.prefs:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.rmi:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.scripting:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.se:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.security.jgss:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.security.sasl:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.smartcardio:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.sql:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.sql.rowset:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.transaction.xa:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.xml:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/java.xml.crypto:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.accessibility:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.attach:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.charsets:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.compiler:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.crypto.cryptoki:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.crypto.ec:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.dynalink:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.editpad:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.hotspot.agent:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.httpserver:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.incubator.concurrent:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.incubator.vector:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.internal.ed:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.internal.jvmstat:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.internal.le:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.internal.opt:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.internal.vm.ci:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.internal.vm.compiler:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.internal.vm.compiler.management:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.jartool:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.javadoc:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.jcmd:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.jconsole:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.jdeps:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.jdi:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.jdwp.agent:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.jfr:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.jlink:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.jpackage:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.jshell:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.jsobject:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.jstatd:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.localedata:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.management:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.management.agent:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.management.jfr:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.naming.dns:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.naming.rmi:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.net:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.nio.mapmode:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.random:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.sctp:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.security.auth:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.security.jgss:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.unsupported:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.unsupported.desktop:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.xml.dom:/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home!/jdk.zipfs:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-commons-net.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-xz.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-junit4.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-jai.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-resolver.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-jdepend.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-regexp.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-log4j.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-javamail.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-bcel.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-netrexx.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-swing.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-jsch.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-junitlauncher.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-junit.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-launcher.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-antlr.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-testutil.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-oro.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-jmf.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-xalan2.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-bsf.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-commons-logging.jar:/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="java.vm.specification.version" value="20" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="TH" />
+    <property name="sun.boot.library.path" value="/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home/lib" />
+    <property name="sun.java.command" value="com.intellij.rt.ant.execution.AntMain2 -logger com.intellij.rt.ant.execution.IdeaAntLogger2 -inputhandler com.intellij.rt.ant.execution.IdeaInputHandler -buildfile /Users/suppanut/Desktop/Beam/y4/QA/JUnit/Rational/build.xml test" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="/Users/suppanut" />
+    <property name="user.language" value="en" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2023-04-18" />
+    <property name="java.home" value="/Users/suppanut/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home" />
+    <property name="basedir" value="/Users/suppanut/Desktop/Beam/y4/QA/JUnit/Rational" />
+    <property name="file.separator" value="/" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="ant.java.version" value="20" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="apple.awt.application.name" value="AntMain2" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.runtime.version" value="20.0.1+9-29" />
+    <property name="user.name" value="suppanut" />
+    <property name="ant.file" value="/Users/suppanut/Desktop/Beam/y4/QA/JUnit/Rational/build.xml" />
+    <property name="stdout.encoding" value="UTF-8" />
+    <property name="path.separator" value=":" />
+    <property name="os.version" value="13.4" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="ant.core.lib" value="/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant.jar" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="java.io.tmpdir" value="/var/folders/w9/2pvzlxpj1wqcm6cx_4_tx2hw0000gn/T/" />
+    <property name="java.version" value="20.0.1" />
+    <property name="user.dir" value="/Users/suppanut/Desktop/Beam/y4/QA/JUnit/Rational" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="/Users/suppanut/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant" />
+    <property name="native.encoding" value="UTF-8" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="java.library.path" value="/Users/suppanut/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="stderr.encoding" value="UTF-8" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.vm.version" value="20.0.1+9-29" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.class.version" value="64.0" />
+  </properties>
+  <testcase classname="RationalTest" name="testAdd" time="0.003" />
+  <testcase classname="RationalTest" name="testSubtract" time="0.001" />
+  <testcase classname="RationalTest" name="testMultiply" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

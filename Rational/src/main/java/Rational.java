@@ -36,10 +36,10 @@ class Rational {
      * Compute an addition of the current rational number to another given rational number
      * @param x the rational number to be added to the current rational number
      */
-    public void add(Rational x) {
+    public void add(Rational x) { 
         numerator = (numerator * x.denominator) + (x.numerator * denominator);
-        denominator = (denominator * x.denominator);
-        simplestForm();
+        denominator = (denominator * x.denominator); 
+        simplestForm(); 
     }
 
     /***
@@ -57,10 +57,11 @@ class Rational {
      * Compute a multiplication of the current rational number to another given rational number
      * @param x the rational number to be multiplied to the current rational number
      */
-    public void multiply(Rational x) {
+    public void multiply(Rational x) { 
         // to be completed
         numerator = numerator * x.numerator;
         denominator = denominator * x.denominator;
+        simplestForm();
     }
 
     /***
@@ -69,6 +70,9 @@ class Rational {
      */
     public void divide(Rational x) {
         // to be completed
+        denominator = denominator * x.denominator;
+        numerator = numerator * x.numerator;
+        simplestForm();
     }
 
     /***
@@ -78,7 +82,14 @@ class Rational {
      */
     public boolean equals(Object x) {
         // to be completed
-        return true; // TODO: This needs to be modified.
+        Rational r = (Rational) x;
+        r.simplestForm();
+        if(this.numerator == r.numerator && this.denominator == r.denominator){
+            return true;
+        }else{
+            return false;
+        }
+         // TODO: This needs to be modified.
     }
 
     /***
